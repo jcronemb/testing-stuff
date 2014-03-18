@@ -7,10 +7,10 @@ public class Class1 {
 
     public static void main(String[] args) {
         Class1 class1 = new Class1();
-        class1.hello2();
+        class1.hello();
     }
         
-    public void hello2() {
+    public void hello() {
         System.out.println("Hi2");
     }
 }
