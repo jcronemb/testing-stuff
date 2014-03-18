@@ -13,4 +13,8 @@ public class Class1 {
     public void hello() {
         System.out.println("Hi");
     }
+    
+    public void hello2() {
+        System.out.println("Hi2");
+    }
 }
