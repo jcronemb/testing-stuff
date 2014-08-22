@@ -1,11 +1,16 @@
-function purchaseProduct(){
+define(["credits","products"], function(credits,products) {
+ 
   console.log("Function : purchaseProduct");
  
-  var credits = getCredits();
-  if(credits > 0){
-    reserveProduct();
-    return true;
+  return {
+    purchaseProduct: function() {
+ 
+      var credit = credits.getCredits();
+      if(credit > 0){
+        products.reserveProduct();
+        return true;
+      }
+      return false;
+    }
   }
-  return false;
-}
-
+});
