@@ -1,0 +1,52 @@
+/*
+ * rjs-example-1.shell css
+ * Shell styles
+ */
+
+.rjs-example-1-head, 
+.rjs-example-1-main,
+.rjs-example-1-main-nav, 
+.rjs-example-1-main-content, 
+.rjs-example-1-footer {
+  position : absolute;
+}
+
+.rjs-example-1-head {
+  top    : 0;
+  left   : 0;
+  right  : 0;
+  height : 40px;
+  background : green;
+}
+
+.rjs-example-1-main {
+  top        : 40px;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+}  
+
+.rjs-example-1-main-nav,
+.rjs-example-1-main-content {
+    top    : 0;
+    bottom : 0;
+}
+
+.rjs-example-1-main-nav {
+  width      : 250px;
+  background : #eee;
+}  
+
+.rjs-example-1-main-content {
+  left       : 250px;
+  right      : 0;
+  background : #ddd;
+}  
+
+.rjs-example-1-footer {
+  bottom : 0;
+  left   : 0;
+  right  : 0;
+  height : 40px;
+  background : green;
+}

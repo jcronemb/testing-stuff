@@ -1,2 +1,4 @@
 testapp/.data/**
+js-libs/
 *~
+*.swp
