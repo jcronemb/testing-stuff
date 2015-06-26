@@ -14,6 +14,10 @@ public class HelloThere {
      * Say hello
      */
     public void hello() {
-        System.out.println("Hi2");
+        System.out.println("Hi");
+    }
+
+    public void helloAgain() {
+      System.out.println("Hello Again");
     }
 }
